@@ -2,21 +2,10 @@
 html {
   box-sizing: border-box;
 }
-/* button {
-  display: flex;
-  justify-content: left;
-  margin: 2%;
-}
-a {
-  display: flex;
-  justify-content: left;
-  margin: 2%;
-} */
-
 
 h1 {
   font: 600 3.5em 'Raleway', sans-serif;
-  color: rgba(0,0,0,.5);
+  color: rgba(80, 9, 134, 0.5);
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .5em;
@@ -29,18 +18,16 @@ body {
 }
 /* The sidebar menu */
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
+  height: 100%;
+  width: 160px;
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #cf88fc; /* Black */
+  background-color: #b197c2;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
-
-/* The navigation menu links */
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -49,18 +36,17 @@ body {
   display: block;
 }
 
-/* When you mouse over the navigation links, change their color */
+/* mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: #f1f1f1;
 }
 
 /* Style page content */
 .main {
-  margin-left: 160px; /* Same as the width of the sidebar */
+  margin-left: 190px;
   padding: 0px 10px;
 }
-
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+/* for smaller screens */
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
